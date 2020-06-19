@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE662C5357BD821455E9668 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2715D49E487F17270F70BE6D /* WelcomeViewController.swift */; };
+		3232F20167423FEF9B2E3B0D /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564307E0599878022002D01 /* WelcomePresenter.swift */; };
+		354F18D86F5D6FED1A513276 /* Pods_QiitaClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6248D47F97388BCCB36F294 /* Pods_QiitaClient.framework */; };
+		41F29396304D61DDEB4BCA2A /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A35492737E7409623F46A /* WelcomePresenter.swift */; };
+		4E13EA7B1333C3AF35282F63 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B143DD48BBD7E81D1FBBEFD /* MainBuilder.swift */; };
+		651D0BF4234B98EBBF18F5BE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EA9698A84EEDDAA4648E53 /* MainViewController.swift */; };
+		8B20B51D2BD38E11D9917851 /* WelcomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4449EE9A8E7ABCA3C8FE2BDA /* WelcomeBuilder.swift */; };
+		B04C0D7D064CF178618E548F /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA872C933A7121B8733C6FA6 /* MainWireframe.swift */; };
+		B0B736EC82D4CAEB91E0078D /* WelcomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE3B852D69BF444CE9BB01 /* WelcomeBuilder.swift */; };
+		BD5FB3917AE3F841B78413CD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07773C3A9F44405DEC304525 /* MainViewController.swift */; };
+		BDF5517D53A97845292A4AA7 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58932639DBBADE58E78920B6 /* WelcomeWireframe.swift */; };
+		CB45FE6D05DE3E052DE89E4A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38952DA584293055120164FA /* MainPresenter.swift */; };
+		D3DB3405249C422800396E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3404249C422800396E20 /* AppDelegate.swift */; };
+		D3DB3407249C422800396E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3406249C422800396E20 /* SceneDelegate.swift */; };
+		D3DB3411249C422900396E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB340F249C422900396E20 /* LaunchScreen.storyboard */; };
+		D3DB3420249C434000396E20 /* ArticleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB341F249C434000396E20 /* ArticleEntity.swift */; };
+		D3DB3423249C435200396E20 /* ArticleMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3422249C435200396E20 /* ArticleMapper.swift */; };
+		D3DB3425249C455000396E20 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3424249C455000396E20 /* AppIcon.xcassets */; };
+		D3DB3428249C459100396E20 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3427249C459100396E20 /* SplashViewController.storyboard */; };
+		D3DB342C249C45DA00396E20 /* SplashBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB342B249C45DA00396E20 /* SplashBuilder.swift */; };
+		D3DB342F249C460000396E20 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB342E249C460000396E20 /* SplashPresenter.swift */; };
+		D3DB3431249C462700396E20 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3430249C462700396E20 /* SplashViewController.swift */; };
+		D3DB3434249C465100396E20 /* SplashWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3433249C465100396E20 /* SplashWireframe.swift */; };
+		D3DB3436249C466400396E20 /* TransitToSplashWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3435249C466400396E20 /* TransitToSplashWireframe.swift */; };
+		D3DB3439249C475100396E20 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3438249C475100396E20 /* UIViewController+.swift */; };
+		D3DB3444249C4C3E00396E20 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3443249C4C3E00396E20 /* Article.swift */; };
+		D3DB3446249C4CE500396E20 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3445249C4CE500396E20 /* Array+Identifiable.swift */; };
+		D3DB3448249C5B2600396E20 /* UserDefaultDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3447249C5B2600396E20 /* UserDefaultDataStore.swift */; };
+		D3DB344A249C5C4000396E20 /* FirstLaunchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3449249C5C4000396E20 /* FirstLaunchUseCase.swift */; };
+		D3DB344C249C5CE600396E20 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB344B249C5CE600396E20 /* Color.xcassets */; };
+		D3DB344E249C5CF700396E20 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB344D249C5CF700396E20 /* Image.xcassets */; };
+		D3DB3452249C5DDA00396E20 /* ArticleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3451249C5DDA00396E20 /* ArticleFactory.swift */; };
+		D3DB3458249C5F5A00396E20 /* HeaderKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3457249C5F5A00396E20 /* HeaderKey.swift */; };
+		D3DB345A249C64DA00396E20 /* TagEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3459249C64DA00396E20 /* TagEntity.swift */; };
+		D3DB345C249C64F400396E20 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB345B249C64F300396E20 /* UserEntity.swift */; };
+		D3DB345E249C654400396E20 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB345D249C654400396E20 /* User.swift */; };
+		D3DB3460249C659800396E20 /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB345F249C659800396E20 /* UserMapper.swift */; };
+		D3DB3462249C65DA00396E20 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3461249C65DA00396E20 /* Tag.swift */; };
+		D3DB3464249C662B00396E20 /* TagMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3463249C662B00396E20 /* TagMapper.swift */; };
+		D3DB3466249C740D00396E20 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3465249C740D00396E20 /* URL.swift */; };
+		D3DB3468249C7A2500396E20 /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3467249C7A2500396E20 /* ArticleRepository.swift */; };
+		D3DB346A249C954700396E20 /* TransitToMainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3469249C954700396E20 /* TransitToMainWireframe.swift */; };
+		D3DB346C249C956A00396E20 /* TransitToWelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB346B249C956A00396E20 /* TransitToWelcomeWireframe.swift */; };
+		D3DB346E249CA50E00396E20 /* ArticleRequsest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB346D249CA50E00396E20 /* ArticleRequsest.swift */; };
+		D3DB3470249CA54000396E20 /* JSONCoder+iso8601withFractionalSeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB346F249CA54000396E20 /* JSONCoder+iso8601withFractionalSeconds.swift */; };
+		D3DB3472249CA55400396E20 /* ErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3471249CA55400396E20 /* ErrorEntity.swift */; };
+		D3DB3474249CA58100396E20 /* DecodableJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3473249CA58100396E20 /* DecodableJSONParser.swift */; };
+		D3DB3476249CA5A000396E20 /* QiitaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3475249CA5A000396E20 /* QiitaRequest.swift */; };
+		D3DB3479249CA7EB00396E20 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3478249CA7EB00396E20 /* Logger.swift */; };
+		D3DB347C249CA87300396E20 /* HTTPRequestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB347B249CA87300396E20 /* HTTPRequestLogger.swift */; };
+		D3DB347E249CA88700396E20 /* HTTPResponseLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB347D249CA88700396E20 /* HTTPResponseLogger.swift */; };
+		D3DB3480249CA89F00396E20 /* NetworkingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB347F249CA89F00396E20 /* NetworkingLogger.swift */; };
+		D3DB3482249CBD4F00396E20 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3481249CBD4F00396E20 /* MainViewController.storyboard */; };
+		D3DB3484249CBE0600396E20 /* ArticleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3483249CBE0600396E20 /* ArticleUseCase.swift */; };
+		D3DB3488249CD3FA00396E20 /* CanShowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3487249CD3FA00396E20 /* CanShowError.swift */; };
+		D3DB348A249CD42800396E20 /* CanShowLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3489249CD42800396E20 /* CanShowLoading.swift */; };
+		D3DB348D249CD45500396E20 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB348C249CD45500396E20 /* LoadingManager.swift */; };
+		D3DB3490249CD47400396E20 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DB348E249CD47400396E20 /* LoadingView.xib */; };
+		D3DB3491249CD47400396E20 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB348F249CD47400396E20 /* LoadingView.swift */; };
+		D3DB3493249CD4AB00396E20 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3492249CD4AB00396E20 /* NibView.swift */; };
+		D3DB3496249CD6A800396E20 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB3495249CD6A800396E20 /* WelcomeViewController.storyboard */; };
+		D3DB3498249CD71600396E20 /* ErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3497249CD71600396E20 /* ErrorMapper.swift */; };
+		D3DB349A249CD73900396E20 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB3499249CD73900396E20 /* ErrorMessage.swift */; };
+		D3DB349C249CD79200396E20 /* Session+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB349B249CD79200396E20 /* Session+Logger.swift */; };
+		D3DB349E249CD7A300396E20 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB349D249CD7A300396E20 /* Result.swift */; };
+		D3DB34A0249CD7BF00396E20 /* JSONDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB349F249CD7BF00396E20 /* JSONDataParser.swift */; };
+		DBC594C21271EC8D92D9E735 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4FC0A895EEBBD1A9AA2762 /* WelcomeWireframe.swift */; };
+		E8892C2EB4E6D7DFC56B5232 /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB65DABA9EE4E1B0C06812 /* MainWireframe.swift */; };
+		E927C7DD5BD4AE8D172A8D55 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C2A310A2852EBCEDA7466 /* MainPresenter.swift */; };
+		F0991F6E407798762385D6F1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620B0B702D78D5708D991D0 /* WelcomeViewController.swift */; };
+		F5D8FB01691B5F31DB5AAD81 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248AB5E36BB59967DED4A7D0 /* MainBuilder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07773C3A9F44405DEC304525 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1BFE3B852D69BF444CE9BB01 /* WelcomeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeBuilder.swift; sourceTree = "<group>"; };
+		213A35492737E7409623F46A /* WelcomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		243C2096F15761A21EDDB331 /* Pods-QiitaClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaClient.release.xcconfig"; path = "Target Support Files/Pods-QiitaClient/Pods-QiitaClient.release.xcconfig"; sourceTree = "<group>"; };
+		248AB5E36BB59967DED4A7D0 /* MainBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		2715D49E487F17270F70BE6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		38952DA584293055120164FA /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		4449EE9A8E7ABCA3C8FE2BDA /* WelcomeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeBuilder.swift; sourceTree = "<group>"; };
+		58932639DBBADE58E78920B6 /* WelcomeWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeWireframe.swift; sourceTree = "<group>"; };
+		6A1C2A310A2852EBCEDA7466 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		73CB65DABA9EE4E1B0C06812 /* MainWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		9B143DD48BBD7E81D1FBBEFD /* MainBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainBuilder.swift; sourceTree = "<group>"; };
+		A564307E0599878022002D01 /* WelcomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		AA872C933A7121B8733C6FA6 /* MainWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
+		B6248D47F97388BCCB36F294 /* Pods_QiitaClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B02FB62DE476FE1BE3FC01 /* Pods-QiitaClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaClient.debug.xcconfig"; path = "Target Support Files/Pods-QiitaClient/Pods-QiitaClient.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DB3401249C422800396E20 /* QiitaClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB3404249C422800396E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3DB3406249C422800396E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3DB3410249C422900396E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DB3412249C422900396E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB341F249C434000396E20 /* ArticleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEntity.swift; sourceTree = "<group>"; };
+		D3DB3422249C435200396E20 /* ArticleMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMapper.swift; sourceTree = "<group>"; };
+		D3DB3424249C455000396E20 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		D3DB3427249C459100396E20 /* SplashViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashViewController.storyboard; sourceTree = "<group>"; };
+		D3DB342B249C45DA00396E20 /* SplashBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashBuilder.swift; sourceTree = "<group>"; };
+		D3DB342E249C460000396E20 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		D3DB3430249C462700396E20 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D3DB3433249C465100396E20 /* SplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframe.swift; sourceTree = "<group>"; };
+		D3DB3435249C466400396E20 /* TransitToSplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitToSplashWireframe.swift; sourceTree = "<group>"; };
+		D3DB3438249C475100396E20 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		D3DB3443249C4C3E00396E20 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D3DB3445249C4CE500396E20 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		D3DB3447249C5B2600396E20 /* UserDefaultDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDataStore.swift; sourceTree = "<group>"; };
+		D3DB3449249C5C4000396E20 /* FirstLaunchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchUseCase.swift; sourceTree = "<group>"; };
+		D3DB344B249C5CE600396E20 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		D3DB344D249C5CF700396E20 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		D3DB3451249C5DDA00396E20 /* ArticleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFactory.swift; sourceTree = "<group>"; };
+		D3DB3457249C5F5A00396E20 /* HeaderKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderKey.swift; sourceTree = "<group>"; };
+		D3DB3459249C64DA00396E20 /* TagEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagEntity.swift; sourceTree = "<group>"; };
+		D3DB345B249C64F300396E20 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		D3DB345D249C654400396E20 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D3DB345F249C659800396E20 /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		D3DB3461249C65DA00396E20 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		D3DB3463249C662B00396E20 /* TagMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMapper.swift; sourceTree = "<group>"; };
+		D3DB3465249C740D00396E20 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		D3DB3467249C7A2500396E20 /* ArticleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+		D3DB3469249C954700396E20 /* TransitToMainWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitToMainWireframe.swift; sourceTree = "<group>"; };
+		D3DB346B249C956A00396E20 /* TransitToWelcomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitToWelcomeWireframe.swift; sourceTree = "<group>"; };
+		D3DB346D249CA50E00396E20 /* ArticleRequsest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRequsest.swift; sourceTree = "<group>"; };
+		D3DB346F249CA54000396E20 /* JSONCoder+iso8601withFractionalSeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONCoder+iso8601withFractionalSeconds.swift"; sourceTree = "<group>"; };
+		D3DB3471249CA55400396E20 /* ErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEntity.swift; sourceTree = "<group>"; };
+		D3DB3473249CA58100396E20 /* DecodableJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableJSONParser.swift; sourceTree = "<group>"; };
+		D3DB3475249CA5A000396E20 /* QiitaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaRequest.swift; sourceTree = "<group>"; };
+		D3DB3478249CA7EB00396E20 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D3DB347B249CA87300396E20 /* HTTPRequestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestLogger.swift; sourceTree = "<group>"; };
+		D3DB347D249CA88700396E20 /* HTTPResponseLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponseLogger.swift; sourceTree = "<group>"; };
+		D3DB347F249CA89F00396E20 /* NetworkingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLogger.swift; sourceTree = "<group>"; };
+		D3DB3481249CBD4F00396E20 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		D3DB3483249CBE0600396E20 /* ArticleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleUseCase.swift; sourceTree = "<group>"; };
+		D3DB3487249CD3FA00396E20 /* CanShowError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanShowError.swift; sourceTree = "<group>"; };
+		D3DB3489249CD42800396E20 /* CanShowLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanShowLoading.swift; sourceTree = "<group>"; };
+		D3DB348C249CD45500396E20 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		D3DB348E249CD47400396E20 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		D3DB348F249CD47400396E20 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D3DB3492249CD4AB00396E20 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		D3DB3495249CD6A800396E20 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
+		D3DB3497249CD71600396E20 /* ErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMapper.swift; sourceTree = "<group>"; };
+		D3DB3499249CD73900396E20 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		D3DB349B249CD79200396E20 /* Session+Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+Logger.swift"; sourceTree = "<group>"; };
+		D3DB349D249CD7A300396E20 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D3DB349F249CD7BF00396E20 /* JSONDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDataParser.swift; sourceTree = "<group>"; };
+		D620B0B702D78D5708D991D0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F9EA9698A84EEDDAA4648E53 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE4FC0A895EEBBD1A9AA2762 /* WelcomeWireframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeWireframe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DB33FE249C422800396E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354F18D86F5D6FED1A513276 /* Pods_QiitaClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069D58F5000D613546AF97C2 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				58932639DBBADE58E78920B6 /* WelcomeWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		09E46CB592C85344C917E9BB /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				FE4FC0A895EEBBD1A9AA2762 /* WelcomeWireframe.swift */,
+				D3DB346B249C956A00396E20 /* TransitToWelcomeWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1814BA43F70FC2682D219040 /* Pasca */ = {
+			isa = PBXGroup;
+			children = (
+				DB822E70D6F495A3C7B420FA /* Presentation */,
+			);
+			path = Pasca;
+			sourceTree = "<group>";
+		};
+		1EC8E0F99D03BC6A0CDCF6E4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C2A310A2852EBCEDA7466 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		207FE102ADED060F28776D37 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A564307E0599878022002D01 /* WelcomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2365E7A18696998A3FE0D91C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6248D47F97388BCCB36F294 /* Pods_QiitaClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C6AD0A04BBB7F6A7D1DA3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2715D49E487F17270F70BE6D /* WelcomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3763EE779A27289AC1BBB023 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				38952DA584293055120164FA /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		39759D955083BFC2C7741482 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				73CB65DABA9EE4E1B0C06812 /* MainWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		403CAEBAEB26021588320C96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07773C3A9F44405DEC304525 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		446BE140984E6E7414BD5CEA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				213A35492737E7409623F46A /* WelcomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4E096827190FD17CB2F4C36A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9EA9698A84EEDDAA4648E53 /* MainViewController.swift */,
+				D3DB3481249CBD4F00396E20 /* MainViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A0CCE8220D0E8738151BD57 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E096827190FD17CB2F4C36A /* View */,
+				3763EE779A27289AC1BBB023 /* Presenter */,
+				A170D2B55A11775312C822FE /* Builder */,
+				A10CFDE8E779B32F9CC03448 /* Wireframe */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5E2D6E06590F35296F57E779 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				248AB5E36BB59967DED4A7D0 /* MainBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		6A7E723E6D22921135581FCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D620B0B702D78D5708D991D0 /* WelcomeViewController.swift */,
+				D3DB3495249CD6A800396E20 /* WelcomeViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		811024798DE81C7CED1C7094 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				6A7E723E6D22921135581FCF /* View */,
+				446BE140984E6E7414BD5CEA /* Presenter */,
+				E6C6FCF16F793C603ED5FA60 /* Builder */,
+				09E46CB592C85344C917E9BB /* Wireframe */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		9A9FC90949832B6826B2B40E /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				36C6AD0A04BBB7F6A7D1DA3F /* View */,
+				207FE102ADED060F28776D37 /* Presenter */,
+				F97B6FE39E95F6CF4C60B83F /* Builder */,
+				069D58F5000D613546AF97C2 /* Wireframe */,
+			);
+			name = Welcome;
+			path = QiitaClient/Presentation/Welcome;
+			sourceTree = SOURCE_ROOT;
+		};
+		A10CFDE8E779B32F9CC03448 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				AA872C933A7121B8733C6FA6 /* MainWireframe.swift */,
+				D3DB3469249C954700396E20 /* TransitToMainWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		A153F1C9CEF3FE734C3651C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				403CAEBAEB26021588320C96 /* View */,
+				1EC8E0F99D03BC6A0CDCF6E4 /* Presenter */,
+				5E2D6E06590F35296F57E779 /* Builder */,
+				39759D955083BFC2C7741482 /* Wireframe */,
+			);
+			name = Main;
+			path = QiitaClient/Presentation/Main;
+			sourceTree = SOURCE_ROOT;
+		};
+		A170D2B55A11775312C822FE /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				9B143DD48BBD7E81D1FBBEFD /* MainBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		CEB1C977159BACE2B5B8A698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7B02FB62DE476FE1BE3FC01 /* Pods-QiitaClient.debug.xcconfig */,
+				243C2096F15761A21EDDB331 /* Pods-QiitaClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3DB33F8249C422800396E20 = {
+			isa = PBXGroup;
+			children = (
+				D3DB3403249C422800396E20 /* QiitaClient */,
+				D3DB3402249C422800396E20 /* Products */,
+				CEB1C977159BACE2B5B8A698 /* Pods */,
+				2365E7A18696998A3FE0D91C /* Frameworks */,
+				1814BA43F70FC2682D219040 /* Pasca */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DB3402249C422800396E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3401249C422800396E20 /* QiitaClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DB3403249C422800396E20 /* QiitaClient */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3418249C429A00396E20 /* Application */,
+				D3DB341D249C42E300396E20 /* Utility */,
+				D3DB3437249C474000396E20 /* Extension */,
+				D3DB343A249C4AD600396E20 /* Data */,
+				D3DB341B249C42CA00396E20 /* Domain */,
+				D3DB341A249C42BA00396E20 /* Presentation */,
+				D3DB3419249C429E00396E20 /* Resource */,
+			);
+			path = QiitaClient;
+			sourceTree = "<group>";
+		};
+		D3DB3418249C429A00396E20 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB340F249C422900396E20 /* LaunchScreen.storyboard */,
+				D3DB3404249C422800396E20 /* AppDelegate.swift */,
+				D3DB3406249C422800396E20 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D3DB3419249C429E00396E20 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3424249C455000396E20 /* AppIcon.xcassets */,
+				D3DB344B249C5CE600396E20 /* Color.xcassets */,
+				D3DB344D249C5CF700396E20 /* Image.xcassets */,
+				D3DB3465249C740D00396E20 /* URL.swift */,
+				D3DB3412249C422900396E20 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D3DB341A249C42BA00396E20 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3485249CD3EA00396E20 /* Common */,
+				D3DB3426249C458400396E20 /* Splash */,
+				811024798DE81C7CED1C7094 /* Welcome */,
+				5A0CCE8220D0E8738151BD57 /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D3DB341B249C42CA00396E20 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3442249C4BA100396E20 /* Model */,
+				D3DB343F249C4B4B00396E20 /* Factory */,
+				D3DB343E249C4B3C00396E20 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D3DB341D249C42E300396E20 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3477249CA7D000396E20 /* Logger */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D3DB341E249C42FD00396E20 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB341F249C434000396E20 /* ArticleEntity.swift */,
+				D3DB345B249C64F300396E20 /* UserEntity.swift */,
+				D3DB3459249C64DA00396E20 /* TagEntity.swift */,
+				D3DB3471249CA55400396E20 /* ErrorEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D3DB3421249C434400396E20 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3422249C435200396E20 /* ArticleMapper.swift */,
+				D3DB345F249C659800396E20 /* UserMapper.swift */,
+				D3DB3463249C662B00396E20 /* TagMapper.swift */,
+				D3DB3497249CD71600396E20 /* ErrorMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		D3DB3426249C458400396E20 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB342A249C45CB00396E20 /* View */,
+				D3DB342D249C45EE00396E20 /* Presenter */,
+				D3DB3429249C45C400396E20 /* Builder */,
+				D3DB3432249C464200396E20 /* Wireframe */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		D3DB3429249C45C400396E20 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB342B249C45DA00396E20 /* SplashBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		D3DB342A249C45CB00396E20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3430249C462700396E20 /* SplashViewController.swift */,
+				D3DB3427249C459100396E20 /* SplashViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3DB342D249C45EE00396E20 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB342E249C460000396E20 /* SplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D3DB3432249C464200396E20 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3433249C465100396E20 /* SplashWireframe.swift */,
+				D3DB3435249C466400396E20 /* TransitToSplashWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		D3DB3437249C474000396E20 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3438249C475100396E20 /* UIViewController+.swift */,
+				D3DB3445249C4CE500396E20 /* Array+Identifiable.swift */,
+				D3DB346F249CA54000396E20 /* JSONCoder+iso8601withFractionalSeconds.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D3DB343A249C4AD600396E20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB343B249C4AE800396E20 /* DataStore */,
+				D3DB3456249C5F4600396E20 /* API */,
+				D3DB3421249C434400396E20 /* Mapper */,
+				D3DB343C249C4AED00396E20 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D3DB343B249C4AE800396E20 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3447249C5B2600396E20 /* UserDefaultDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		D3DB343C249C4AED00396E20 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3467249C7A2500396E20 /* ArticleRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D3DB343D249C4B2400396E20 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB346D249CA50E00396E20 /* ArticleRequsest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		D3DB343E249C4B3C00396E20 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3449249C5C4000396E20 /* FirstLaunchUseCase.swift */,
+				D3DB3483249CBE0600396E20 /* ArticleUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		D3DB343F249C4B4B00396E20 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3451249C5DDA00396E20 /* ArticleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		D3DB3442249C4BA100396E20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3443249C4C3E00396E20 /* Article.swift */,
+				D3DB345D249C654400396E20 /* User.swift */,
+				D3DB3461249C65DA00396E20 /* Tag.swift */,
+				D3DB3499249CD73900396E20 /* ErrorMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3DB3456249C5F4600396E20 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB34A1249CD7E800396E20 /* APIKit */,
+				D3DB343D249C4B2400396E20 /* Request */,
+				D3DB341E249C42FD00396E20 /* Entity */,
+				D3DB3457249C5F5A00396E20 /* HeaderKey.swift */,
+				D3DB349D249CD7A300396E20 /* Result.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D3DB3477249CA7D000396E20 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB347A249CA86700396E20 /* Networking */,
+				D3DB3478249CA7EB00396E20 /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		D3DB347A249CA86700396E20 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB347B249CA87300396E20 /* HTTPRequestLogger.swift */,
+				D3DB347D249CA88700396E20 /* HTTPResponseLogger.swift */,
+				D3DB347F249CA89F00396E20 /* NetworkingLogger.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D3DB3485249CD3EA00396E20 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3486249CD3F200396E20 /* Protocol */,
+				D3DB3494249CD64100396E20 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D3DB3486249CD3F200396E20 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB348B249CD44600396E20 /* Loading */,
+				D3DB3487249CD3FA00396E20 /* CanShowError.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D3DB348B249CD44600396E20 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3489249CD42800396E20 /* CanShowLoading.swift */,
+				D3DB348C249CD45500396E20 /* LoadingManager.swift */,
+				D3DB348F249CD47400396E20 /* LoadingView.swift */,
+				D3DB348E249CD47400396E20 /* LoadingView.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		D3DB3494249CD64100396E20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3492249CD4AB00396E20 /* NibView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3DB34A1249CD7E800396E20 /* APIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB3475249CA5A000396E20 /* QiitaRequest.swift */,
+				D3DB3473249CA58100396E20 /* DecodableJSONParser.swift */,
+				D3DB349F249CD7BF00396E20 /* JSONDataParser.swift */,
+				D3DB349B249CD79200396E20 /* Session+Logger.swift */,
+			);
+			path = APIKit;
+			sourceTree = "<group>";
+		};
+		DB822E70D6F495A3C7B420FA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A153F1C9CEF3FE734C3651C3 /* Main */,
+				9A9FC90949832B6826B2B40E /* Welcome */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E6C6FCF16F793C603ED5FA60 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				4449EE9A8E7ABCA3C8FE2BDA /* WelcomeBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		F97B6FE39E95F6CF4C60B83F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE3B852D69BF444CE9BB01 /* WelcomeBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DB3400249C422800396E20 /* QiitaClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB3415249C422900396E20 /* Build configuration list for PBXNativeTarget "QiitaClient" */;
+			buildPhases = (
+				07DD7BA3D9FB996EAD24F29F /* [CP] Check Pods Manifest.lock */,
+				D3DB33FD249C422800396E20 /* Sources */,
+				D3DB33FE249C422800396E20 /* Frameworks */,
+				D3DB33FF249C422800396E20 /* Resources */,
+				A191FDD4DF2519E25D7BB32E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiitaClient;
+			productName = QiitaClient;
+			productReference = D3DB3401249C422800396E20 /* QiitaClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DB33F9249C422800396E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Shinichiro Kato";
+				TargetAttributes = {
+					D3DB3400249C422800396E20 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D3DB33FC249C422800396E20 /* Build configuration list for PBXProject "QiitaClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DB33F8249C422800396E20;
+			productRefGroup = D3DB3402249C422800396E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DB3400249C422800396E20 /* QiitaClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DB33FF249C422800396E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB3411249C422900396E20 /* LaunchScreen.storyboard in Resources */,
+				D3DB344C249C5CE600396E20 /* Color.xcassets in Resources */,
+				D3DB3428249C459100396E20 /* SplashViewController.storyboard in Resources */,
+				D3DB3425249C455000396E20 /* AppIcon.xcassets in Resources */,
+				D3DB3496249CD6A800396E20 /* WelcomeViewController.storyboard in Resources */,
+				D3DB3490249CD47400396E20 /* LoadingView.xib in Resources */,
+				D3DB3482249CBD4F00396E20 /* MainViewController.storyboard in Resources */,
+				D3DB344E249C5CF700396E20 /* Image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DD7BA3D9FB996EAD24F29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiitaClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A191FDD4DF2519E25D7BB32E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QiitaClient/Pods-QiitaClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QiitaClient/Pods-QiitaClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QiitaClient/Pods-QiitaClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DB33FD249C422800396E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB3484249CBE0600396E20 /* ArticleUseCase.swift in Sources */,
+				D3DB3444249C4C3E00396E20 /* Article.swift in Sources */,
+				D3DB3405249C422800396E20 /* AppDelegate.swift in Sources */,
+				D3DB3407249C422800396E20 /* SceneDelegate.swift in Sources */,
+				D3DB349A249CD73900396E20 /* ErrorMessage.swift in Sources */,
+				D3DB3462249C65DA00396E20 /* Tag.swift in Sources */,
+				D3DB3498249CD71600396E20 /* ErrorMapper.swift in Sources */,
+				D3DB3493249CD4AB00396E20 /* NibView.swift in Sources */,
+				D3DB3491249CD47400396E20 /* LoadingView.swift in Sources */,
+				D3DB344A249C5C4000396E20 /* FirstLaunchUseCase.swift in Sources */,
+				D3DB3464249C662B00396E20 /* TagMapper.swift in Sources */,
+				D3DB3458249C5F5A00396E20 /* HeaderKey.swift in Sources */,
+				D3DB3479249CA7EB00396E20 /* Logger.swift in Sources */,
+				D3DB3439249C475100396E20 /* UIViewController+.swift in Sources */,
+				D3DB348D249CD45500396E20 /* LoadingManager.swift in Sources */,
+				D3DB3420249C434000396E20 /* ArticleEntity.swift in Sources */,
+				D3DB345A249C64DA00396E20 /* TagEntity.swift in Sources */,
+				D3DB3480249CA89F00396E20 /* NetworkingLogger.swift in Sources */,
+				D3DB349C249CD79200396E20 /* Session+Logger.swift in Sources */,
+				D3DB3466249C740D00396E20 /* URL.swift in Sources */,
+				D3DB3476249CA5A000396E20 /* QiitaRequest.swift in Sources */,
+				D3DB342C249C45DA00396E20 /* SplashBuilder.swift in Sources */,
+				D3DB3448249C5B2600396E20 /* UserDefaultDataStore.swift in Sources */,
+				D3DB3423249C435200396E20 /* ArticleMapper.swift in Sources */,
+				D3DB3460249C659800396E20 /* UserMapper.swift in Sources */,
+				D3DB3434249C465100396E20 /* SplashWireframe.swift in Sources */,
+				D3DB3431249C462700396E20 /* SplashViewController.swift in Sources */,
+				D3DB345C249C64F400396E20 /* UserEntity.swift in Sources */,
+				D3DB342F249C460000396E20 /* SplashPresenter.swift in Sources */,
+				D3DB3436249C466400396E20 /* TransitToSplashWireframe.swift in Sources */,
+				D3DB348A249CD42800396E20 /* CanShowLoading.swift in Sources */,
+				D3DB3452249C5DDA00396E20 /* ArticleFactory.swift in Sources */,
+				D3DB3446249C4CE500396E20 /* Array+Identifiable.swift in Sources */,
+				D3DB3468249C7A2500396E20 /* ArticleRepository.swift in Sources */,
+				D3DB346E249CA50E00396E20 /* ArticleRequsest.swift in Sources */,
+				D3DB345E249C654400396E20 /* User.swift in Sources */,
+				D3DB349E249CD7A300396E20 /* Result.swift in Sources */,
+				D3DB347C249CA87300396E20 /* HTTPRequestLogger.swift in Sources */,
+				D3DB347E249CA88700396E20 /* HTTPResponseLogger.swift in Sources */,
+				D3DB346A249C954700396E20 /* TransitToMainWireframe.swift in Sources */,
+				D3DB3474249CA58100396E20 /* DecodableJSONParser.swift in Sources */,
+				BD5FB3917AE3F841B78413CD /* MainViewController.swift in Sources */,
+				E927C7DD5BD4AE8D172A8D55 /* MainPresenter.swift in Sources */,
+				F5D8FB01691B5F31DB5AAD81 /* MainBuilder.swift in Sources */,
+				E8892C2EB4E6D7DFC56B5232 /* MainWireframe.swift in Sources */,
+				2EE662C5357BD821455E9668 /* WelcomeViewController.swift in Sources */,
+				D3DB346C249C956A00396E20 /* TransitToWelcomeWireframe.swift in Sources */,
+				3232F20167423FEF9B2E3B0D /* WelcomePresenter.swift in Sources */,
+				D3DB3470249CA54000396E20 /* JSONCoder+iso8601withFractionalSeconds.swift in Sources */,
+				B0B736EC82D4CAEB91E0078D /* WelcomeBuilder.swift in Sources */,
+				D3DB34A0249CD7BF00396E20 /* JSONDataParser.swift in Sources */,
+				BDF5517D53A97845292A4AA7 /* WelcomeWireframe.swift in Sources */,
+				651D0BF4234B98EBBF18F5BE /* MainViewController.swift in Sources */,
+				CB45FE6D05DE3E052DE89E4A /* MainPresenter.swift in Sources */,
+				4E13EA7B1333C3AF35282F63 /* MainBuilder.swift in Sources */,
+				B04C0D7D064CF178618E548F /* MainWireframe.swift in Sources */,
+				D3DB3488249CD3FA00396E20 /* CanShowError.swift in Sources */,
+				F0991F6E407798762385D6F1 /* WelcomeViewController.swift in Sources */,
+				41F29396304D61DDEB4BCA2A /* WelcomePresenter.swift in Sources */,
+				8B20B51D2BD38E11D9917851 /* WelcomeBuilder.swift in Sources */,
+				DBC594C21271EC8D92D9E735 /* WelcomeWireframe.swift in Sources */,
+				D3DB3472249CA55400396E20 /* ErrorEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3DB340F249C422900396E20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DB3410249C422900396E20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DB3413249C422900396E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DB3414249C422900396E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DB3416249C422900396E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B02FB62DE476FE1BE3FC01 /* Pods-QiitaClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiitaClient/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renju0.qiitaclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DB3417249C422900396E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243C2096F15761A21EDDB331 /* Pods-QiitaClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QiitaClient/Resource/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renju0.qiitaclient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DB33FC249C422800396E20 /* Build configuration list for PBXProject "QiitaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB3413249C422900396E20 /* Debug */,
+				D3DB3414249C422900396E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DB3415249C422900396E20 /* Build configuration list for PBXNativeTarget "QiitaClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB3416249C422900396E20 /* Debug */,
+				D3DB3417249C422900396E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DB33F9249C422800396E20 /* Project object */;
+}

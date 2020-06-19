@@ -1,0 +1,25 @@
+### Headers settings
+company: Shinichiro Kato
+
+### Xcode project settings
+project_name: QiitaClient
+xcodeproj_path: QiitaClient.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: QiitaClient
+
+# The file path for new modules
+project_file_path: QiitaClient/Presentation/
+
+# The Xcode group path to new modules
+project_group_path: QiitaClient/Presentation/
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/ShinichiroKato/GenerambaTemplate'
+templates:
+- {name: my_presentation} # 使いたいテンプレートを選択
